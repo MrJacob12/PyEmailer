@@ -1,4 +1,4 @@
-### PyMailer
+### PyMails
 ---
 ## Required
 * [Python >= 3.8][link1]
