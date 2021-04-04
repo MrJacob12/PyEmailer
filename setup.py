@@ -10,7 +10,7 @@ classifiers = [
 
 setup(
   name='PyMails',
-  version='0.0.3',
+  version='0.0.5',
   description='Simple tools for sending mail',
   long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
   long_description_content_type='text/markdown',
