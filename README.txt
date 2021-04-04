@@ -14,7 +14,7 @@ sender_email = ''
 password = ''
 receiver_email = ''
 
-## Html forms
+## Html form
 msg = MIMEMultipart('alternative')
 msg['Subject'] = 'Test mail'
 msg['From'] = sender_email
@@ -23,7 +23,7 @@ msg['To'] = receiver_email
 html = open('./html/mail.html','r+').read()
 msg.attach(MIMEText(html, 'html'))
 
-## Without html forms
+## Without html form
 msg = MIMEText('Test')
 msg['Subject'] = 'Test mail'
 msg['From'] = sender_email
