@@ -29,11 +29,11 @@ msg['Subject'] = 'Test mail'
 msg['From'] = sender_email
 msg['To'] = receiver_email
 
-send_mail(smtp_server,port,sender_email,password,receiver_email,msg);
+send_mail(smtp_server,port,sender_email,password,receiver_email,msg)
 ```
 ## Connection test
 ```python
-    connection_test(smtp_server,port,sender_email,password)
+connection_test(smtp_server,port,sender_email,password)
 ```
 
 [link1]: https://www.python.org/
