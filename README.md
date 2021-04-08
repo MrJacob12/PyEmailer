@@ -3,7 +3,7 @@
 ## Required
 * [Python >= 3.8][link1]
 ## Install
-* ```pip install PyMails```
+* ``` pip install PyMails ```
 
 ## Send mail 
 ```python
