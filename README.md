@@ -2,6 +2,9 @@
 ---
 ## Required
 * [Python >= 3.8][link1]
+## Install
+* ```pip install PyMails```
+---
 ## Send mail 
 ```python
 from email.mime.text import MIMEText
